@@ -90,7 +90,7 @@ final class AddressList implements \Countable, \IteratorAggregate
     /**
      * @return \ArrayIterator|Address[]
      */
-    public function getIterator(): ArrayIterator
+    public function getIterator(): \ArrayIterator
     {
         return new \ArrayIterator($this->addresses);
     }
